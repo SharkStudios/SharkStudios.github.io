@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Official SharkStudios Page</h1>
+<p>Official SharkStudios Page</p>
+<p id="witanie"></p>
     <script>
         var imie = prompt("Podaj swoje ID pracownika");
         if(imie == "Blahkhan" || imie == "MrShelo"){
-            alert("Witam szefa");          
+            alert("Witam szefa"); 
+             document.getElementById("witanie").innerHTML = "Witaj " + imie;        
         }else{
             alert("Nie masz dostępu do strony");
+            window.location.replace("http://www.google.com");
         }
     </Script>
 </body>
