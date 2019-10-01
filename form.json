@@ -1,5 +1,8 @@
-{"label": "Additional information",
-  "name": "comment",
-  "type": "textarea",
-  "hint": "Provide additional information if needed."
+{
+    "trigger_id": "1",
+    "label": "Additional information",
+    "name": "comment",
+    "type": "textarea",
+    "hint": "Provide additional information if needed."
 }
+  
